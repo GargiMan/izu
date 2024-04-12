@@ -21,9 +21,9 @@ u16_r:- write('Zadej LIN1: '),read(LIN1),
 u16(LIN1,LIN2,LOUT):-
 	encrypt(LIN1, LIN2, LOUT, LIN2).
 
-encrypt([], _, [], _).
+encrypt([], _, [], _) :- !.
 encrypt(X, Y_Full, Z, []) :-
-    encrypt(X, Y_Full, Z, Y_Full).
+    encrypt(X, Y_Full, Z, Y_Full), !.
 encrypt([X|Xs], Y_Full, [Z|Zs], [Y|Ys]) :-
     encrypt(Xs, Y_Full, Zs, Ys),
     Z is X-Y.
