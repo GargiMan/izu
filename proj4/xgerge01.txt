@@ -1,0 +1,10 @@
+Zadani c. 100
+
+Metodou K-means clustering zaradte nasledujci body (x,y,z) v 3D prostoru 
+( 5, 1, 1) (-2, 5,-2) ( 2, 5,-3) (-8,-6, 9) ( 7, 9, 6) (-6,-9, 1) ( 0, 0,-7) (-6, 2,-5) ( 1,-2,-7) ( 1, 4, 3) 
+do 3 shluku s pocatecnimi stredy 
+( 7, 9, 6) (-6, 2,-5) ( 2, 5,-3).
+
+Vysledky vypoctu zaokrouhlujte na dve desetinna mista. 
+
+
