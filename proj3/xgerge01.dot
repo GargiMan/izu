@@ -1,6 +1,6 @@
 digraph {
-    vlhkost1 [shape=record, label="vlhkost|{teplota=0.2146|den=0.2539|obdobi=0.0879|vlhkost=0.2621}"]
-    vlhkost1 -> den2 [label="mala {3,4,6,8,9,12,15}"]
+    vhkost1 [shape=record, label="vhkost|{teplota=0.2146|den=0.2539|obdobi=0.0879|vhkost=0.2621}"]
+    vhkost1 -> den2 [label="mala {3,4,6,8,9,12,15}"]
     den2 [shape=record, label="den|{teplota=0.4838|den=0.7695|obdobi=0.1981}"]
     den2 -> Nizka3 [label="pracovni {15}"]
     Nizka3 [shape=box, style=rounded, label="Nizka"]
@@ -20,7 +20,7 @@ digraph {
     Velka10 [shape=box, style=rounded, label="Velka"]
     obdobi8 -> Velka11 [label="podzim {9}"]
     Velka11 [shape=box, style=rounded, label="Velka"]
-    vlhkost1 -> teplota12 [label="velka {1,2,5,7,10,11,13,14}"]
+    vhkost1 -> teplota12 [label="velka {1,2,5,7,10,11,13,14}"]
     teplota12 [shape=record, label="teplota|{teplota=0.5943|den=0.3112|obdobi=0.1556}"]
     teplota12 -> Stredni13 [label="nizka {2,7,10}"]
     Stredni13 [shape=box, style=rounded, label="Stredni"]
